@@ -19,4 +19,4 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/apt.lock')}}
 
       - name: Install dependencies
-        run: sudo apt-get install aria2c
+        run: sudo apt-get install aria2
