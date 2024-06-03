@@ -6,6 +6,6 @@ Script em python que oferece uma interface simples de linha de comando para baix
 
 <h2> Dependências </h2>
 
-- aria2c
-- colorama
-- webtorrent
+- aria2c - https://aria2.github.io/
+- colorama -https://pypi.org/project/colorama/
+- webtorrent -https://github.com/webtorrent/webtorrent
