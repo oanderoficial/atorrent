@@ -9,3 +9,28 @@ Script em python que oferece uma interface simples de linha de comando para baix
 - aria2c - https://aria2.github.io/
 - colorama -https://pypi.org/project/colorama/
 - webtorrent -https://github.com/webtorrent/webtorrent
+
+<strong> Atorrent funções </strong>
+
+```python
+def download_torrent(link):
+    os.system(f"aria2c {link}")
+
+def download_bittorrent(link):
+    os.system(f"aria2c {link}")
+
+def stream_torrent(link):
+    os.system(f"webtorrent {link} 0 1")
+```
+
+```txt
+1. Download Torrent (link magnético)
+```
+
+```txt
+2. Download de BitTorrent
+```
+
+```txt
+3. Streaming de Torrents
+```
